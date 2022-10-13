@@ -1,5 +1,5 @@
 {
-  "description": "A foundation for scalable desktop apps",
+  "description": "Basis for LocTight",
   "keywords": [
     "electron",
     "boilerplate",
@@ -15,10 +15,6 @@
   "bugs": {
     "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
-  },
   "license": "MIT",
   "author": {
     "name": "Electron React Boilerplate Maintainers",
@@ -27,9 +23,9 @@
   },
   "contributors": [
     {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
+      "name": "Zac Poorman from react and electron boilerplate",
+      "email": "poorman.pwr4g@gmail.com",
+      "url": "https://github.com/OOCAZ"
     }
   ],
   "main": "./src/main/main.ts",
@@ -109,11 +105,19 @@
     }
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.10.8",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.2.3",
     "react": "^18.2.0",
+    "react-countdown": "^2.3.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
